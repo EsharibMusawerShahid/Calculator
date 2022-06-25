@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+    <div class="calculator">
+        <div class="container">
+            <div id="screen">
+            </div>
+            
+            <table>
+                <tr>
+                    <td class="special1" ><button onClick="clearScreen()">C</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick="getValue7()">7</button></td>
+                    <td><button onClick="getValue8()">8</button></td>
+                    <td><button onClick="getValue9()">9</button></td>
+                    <td class="special2" ><button onClick="getValueMultiply()">X</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick="getValue4()">4</button></td>
+                    <td><button onClick="getValue5()">5</button></td>
+                    <td><button onClick="getValue6()">6</button></td>
+                    <td class="special2" ><button onClick="getValueMinus()">-</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick="getValue1()">1</button></td>
+                    <td><button onClick="getValue2()">2</button ></td>
+                    <td><button onClick="getValue3()">3</button></td>
+                    <td class="special2"><button onClick="getValuePlus()">+</button></td>
+                </tr>
+                <tr>
+                    <td><button onClick="getValue0()">0</button></td>
+                    <td class="special3"><button onClick="getValuePoint()">.</button></td>
+                    <td class="special2"><button onClick="getValueDivide()">/</button></td>
+                    <td class="special1"><button onClick="getValueEquals()">=</button></td>
+                </tr>
+            </table>
+        </div>
+    </div>
+
+
+</body>
+<script src="./app.js"></script>
+</html>
